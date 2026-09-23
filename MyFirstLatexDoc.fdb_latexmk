@@ -1,14 +1,63 @@
-# Fdb version 4
-["pdflatex"] 1790176678.95398 "c:/Users/HP/LaTex stuff/MyFirstLatexDoc.tex" "MyFirstLatexDoc.pdf" "MyFirstLatexDoc" 1790176679.52414 2
-  ").sty" 0 -1 0 ""
-  "C:/Users/HP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1790175378 13332035 be97a67ba9a15a4b3a139c4aa86e662e ""
-  "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1761900684 20144 b966087dda3b194755eb460d32e2ef75 ""
-  "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1761900684 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
-  "MyFirstLatexDoc.aux" 1790176670 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "MyFirstLatexDoc.tex" 1790176675 328 679e2b6ee78b21dc4743d22989b9894e ""
-  "c:/Users/HP/LaTex stuff/MyFirstLatexDoc.tex" 1790176675 328 679e2b6ee78b21dc4743d22989b9894e ""
-  (generated)
-  "MyFirstLatexDoc.aux"
-  "MyFirstLatexDoc.log"
-  "MyFirstLatexDoc.pdf"
-  (rewritten before read)
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+  
+  \begin{document}
+  \begin{center}
+  {\LARGE \textbf{PIYUSH CHAUHAN}}
+  \end{center}
+  
+
+\begin{center}
+    +91 8077995051 \;|\;
+    \href{mailto:azzz4ur4eee@gmal.com}{azzz4ur4eee@gmail.com} \;|\;
+    \href{https://www.linkedin.com/in/piyush-chauhan-003a40377/}{LinkedIn} \;|\;
+    \href{https://github.com/azzz4ur4eee-sketch}{Github} \;|\;
+\end{center}
+\section{Education}
+\textbf{Indian Institute of Technology}
+\hfill 2026 -- Present \\
+Bachelor of Science in Artificial Intelligence and Cyber Security \\
+Data Science, Data structure, Computer Networks
+\section{Projects}
+\textbf{Placivo -- College Training \& Placement workflow management SaaS }
+\hfill 2026
+\begin{itemize}[leftmargin=*, nosep]
+    \item Built a web-based platform for managing college training and Placement workflows.
+    \item Implemented authentication, student profiles, placement drives, and application tracking.
+    \item Used Next.js, Supabase, PoswtgreSQL, and Tailwind CSS.
+     
+\end{itemize}
+\textbf{Network Traffic Analysis Lab}
+\hfill 2026
+
+\begin{itemize}[leftmargin=*, nosep]
+    \item Analyzed packet captures using Wireshark to investigate network traffic.
+    \item Studied protocols including TCP, DNS, HTTP, and ICMP.
+\end{itemize}
+\section{Technical skills}
+\textbf{Languages:} C, C++, Python, LaTex
+\textbf{Cybersecurity:} Networking, Wireshark, Digital Forensics
+\textbf{Tools:} Git, Github, Linux, VS code
+\textbf{Web:} Next.js, React, Supabase
+
+\section{Achievements \& leadership}
+\begin{itemize}[leftmargin=*, nosep]
+    \item 
+    \item 
+\end{itemize}
+
+
+
+\end{document}
